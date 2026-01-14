@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id = "b1" onclick="swati()">Click Me</button>
+    <button  onmouseover="fun1()" onmouseout="fun2()">Click Me</button>
+    <p id="p1"></p>
+    
+</body>
+<script >
+function swati()
+{
+    document.getElementById("b1").innerHTML="hello moto";
+}
+function fun1()
+{
+    document.getElementById("p1").innerHTML=Date();
+
+}
+function fun2()
+{
+    document.getElementById("p1").innerHTML="click me";
+
+}
+
+
+</script>
+
+</html>
